@@ -1,0 +1,1 @@
+export default function About() { return <section className="simple-page"><p className="eyebrow">The story</p><h2>Recipes that remember home.</h2><p>Swahili Plate began with a family notebook, a market full of colour and a belief that the best meals are shared slowly.</p></section>; }

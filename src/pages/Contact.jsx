@@ -1,0 +1,1 @@
+export default function Contact() { return <section className="simple-page" id="contact"><p className="eyebrow">Say jambo</p><h2>Make it a gathering.</h2><p>For celebrations, private dinners and general deliciousness, write to hello@swahiliplate.example.</p></section>; }
