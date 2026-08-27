@@ -1,0 +1,10 @@
+export const dishes = [
+  { id: 1, name: 'Chicken Biryani', description: 'Tender chicken, fragrant rice and authentic coastal spices.', price: 1850, category: "Chef's Special", image: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=900&auto=format&fit=crop' },
+  { id: 2, name: 'Beef Pilau', description: 'Fragrant basmati rice with warm cardamom and tender beef.', price: 1650, category: 'Signature Dish', image: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=900&auto=format&fit=crop' },
+  { id: 3, name: 'Grilled Fish & Coconut Rice', description: 'Fresh grilled fish served with creamy coconut rice and kachumbari.', price: 2100, category: "Chef's Special", image: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=900&auto=format&fit=crop' },
+  { id: 4, name: 'Mishkaki', description: 'Charcoal-grilled skewers marinated in our coastal spice blend.', price: 1200, category: "Today's Specials", image: 'https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=900&auto=format&fit=crop' },
+  { id: 5, name: 'Viazi Karai & Bhajias', description: 'Crisp Mombasa-style potato and vegetable bites with tamarind sauce.', price: 900, category: 'Snacks', image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=900&auto=format&fit=crop' },
+  { id: 6, name: 'Mahamri na Chai', description: 'Golden cardamom mahamri served with spiced Kenyan tea.', price: 800, category: 'Breakfast', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=900&auto=format&fit=crop' },
+  { id: 7, name: 'Tamarind & Passion Juice', description: 'Fresh coastal tamarind and passion fruit drinks served over ice.', price: 700, category: 'Drinks', image: 'https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=900&auto=format&fit=crop' },
+  { id: 8, name: 'Samaki wa Nazi', description: 'Mahi mahi simmered in coconut, tomato and coastal spices.', price: 1950, category: 'Authentic Coastal', image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=900&auto=format&fit=crop' }
+];

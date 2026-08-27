@@ -1,0 +1,3 @@
+export default function FoodCard({ dish, onOrder, isAdditional = false }) {
+  return <article className={`food-card${isAdditional ? ' food-card-new' : ''}`}><div className="dish-image-wrap"><img className="dish-image" src={dish.image} alt={dish.name} loading="lazy" /></div><div className="dish-number">0{dish.id}</div><div><p className="tag">{dish.category}</p><h3>{dish.name}</h3><p>{dish.description}</p></div><div className="food-card-action"><strong>KSh {dish.price.toLocaleString()}</strong><button type="button" onClick={() => onOrder(dish)}>Order now <span aria-hidden="true">+</span></button></div></article>;
+}
